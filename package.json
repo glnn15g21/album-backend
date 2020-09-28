@@ -1,0 +1,32 @@
+{
+  "name": "album-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glnn15g21/album-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glnn15g21/album-backend/issues"
+  },
+  "homepage": "https://github.com/glnn15g21/album-backend#readme",
+  "dependencies": {
+    "capitalize": "^2.0.3",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "multer": "^1.4.2",
+    "paginate-info": "^1.0.4",
+    "sort-json-array": "^0.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
+  }
+}

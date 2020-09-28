@@ -1,0 +1,15 @@
+GET http://localhost:8888/health
+
+
+###
+
+POST http://localhost:8888/photos/list
+Content-Type: application/json
+
+{
+    "skip":0,
+    "limit":5
+}
+
+###
+PUT http://localhost:8888/photos
